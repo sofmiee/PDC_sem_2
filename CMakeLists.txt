@@ -6,7 +6,13 @@ project(sem_2)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(proj task_1.cpp
-        task_2.cpp)
+        task_2.cpp
+        task_3.cpp
+        task_4.cpp
+        task_5.cpp
+        TaskTimer.cpp
+        TaskTimer.h
+)
 
 if (WIN32)
     # Windows + MinGW
