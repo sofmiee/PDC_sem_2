@@ -19,6 +19,7 @@ add_executable(sem_2 task_1.cpp
         ThreadVirtual.h
         SimulatorHyperThread.cpp
         SimulatorHyperThread.h
+        task_7.cpp
 )
 
 if (WIN32)

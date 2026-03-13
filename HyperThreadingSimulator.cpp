@@ -20,6 +20,4 @@ void HyperThreadingSimulator::execute() {
             running = true;
         }
     }
-
-
 }

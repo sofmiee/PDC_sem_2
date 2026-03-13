@@ -1,3 +1,9 @@
-//
-// Created by sonya on 13.03.2026.
-//
+#include <vector>
+#include <string>
+#include "SimulatorHyperThread.h"
+
+int main() {
+    std::vector <std::string> tasks = {"A", "B", "C", "D", "E", "F"};
+    SimulatorHyperThread simulator(tasks);
+    simulator.execute();
+}
