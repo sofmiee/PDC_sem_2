@@ -1,0 +1,9 @@
+#ifndef SEM_2_SIMULATORHYPERTHREAD_H
+#define SEM_2_SIMULATORHYPERTHREAD_H
+
+
+class SimulatorHyperThread {
+};
+
+
+#endif //SEM_2_SIMULATORHYPERTHREAD_H
