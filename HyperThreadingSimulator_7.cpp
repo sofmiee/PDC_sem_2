@@ -1,11 +1,11 @@
-#include "SimulatorHyperThread.h"
+#include "HyperThreadingSimulator_7.h"
 #include <vector>
 #include <string>
 
-SimulatorHyperThread::SimulatorHyperThread(std::vector <std::string> & tasks)
+HyperThreadingSimulator_7::HyperThreadingSimulator_7(std::vector <std::string> & tasks)
     : thread_1(tasks), thread_2(tasks) {}
 
-void SimulatorHyperThread::execute() {
+void HyperThreadingSimulator_7::execute() {
     bool running = true;
     while (running) {
         running = false;

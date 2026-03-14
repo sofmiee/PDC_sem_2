@@ -1,10 +1,10 @@
 #include <vector>
-#include "HyperThreadingSimulator.h"
+#include "HyperThreadingSimulator_6.h"
 
 /*
 int main() {
     std::vector<int> tasks = {5, 7, 10, 12};
 
-    HyperThreadingSimulator simulator (tasks);
+    HyperThreadingSimulator_6 simulator (tasks);
     simulator.execute();
 }*/

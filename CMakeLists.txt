@@ -9,17 +9,24 @@ add_executable(sem_2 task_1.cpp
         task_4.cpp
         task_5.cpp
         task_6.cpp
+        task_7.cpp
+        task_8.cpp
         TaskTimer.cpp
         TaskTimer.h
-        VirtualThread.cpp
-        VirtualThread.h
-        HyperThreadingSimulator.cpp
-        HyperThreadingSimulator.h
-        ThreadVirtual.cpp
-        ThreadVirtual.h
-        SimulatorHyperThread.cpp
-        SimulatorHyperThread.h
-        task_7.cpp
+        Task.cpp
+        Task.h
+        VirtualThread_6.cpp
+        VirtualThread_6.h
+        HyperThreadingSimulator_6.cpp
+        HyperThreadingSimulator_6.h
+        VirtualThread_7.cpp
+        VirtualThread_7.h
+        HyperThreadingSimulator_7.cpp
+        HyperThreadingSimulator_7.h
+        VirtualThread_8.cpp
+        VirtualThread_8.h
+        HyperThreadingSimulator_8.cpp
+        HyperThreadingSimulator_8.h
 )
 
 if (WIN32)

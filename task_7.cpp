@@ -1,9 +1,10 @@
 #include <vector>
 #include <string>
-#include "SimulatorHyperThread.h"
+#include "HyperThreadingSimulator_7.h"
 
+/*
 int main() {
     std::vector <std::string> tasks = {"A", "B", "C", "D", "E", "F"};
-    SimulatorHyperThread simulator(tasks);
+    HyperThreadingSimulator_7 simulator(tasks);
     simulator.execute();
-}
+}*/

@@ -1,11 +1,11 @@
-#include "ThreadVirtual.h"
+#include "VirtualThread_7.h"
 #include <iostream>
 #include <vector>
 #include <string>
 
 static int iterator = 0;
 
-bool ThreadVirtual::runNextTask(int thread_id) {
+bool VirtualThread_7::runNextTask(int thread_id) {
     if (last_task > (*tasks).size()) {
         return false;
     } else {
@@ -30,6 +30,6 @@ bool ThreadVirtual::runNextTask(int thread_id) {
     }
 }
 
-ThreadVirtual::ThreadVirtual(std::vector<std::string> & tasks) {
+VirtualThread_7::VirtualThread_7(std::vector<std::string> & tasks) {
     this -> tasks = & tasks;
 }
